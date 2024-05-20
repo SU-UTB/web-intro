@@ -7,6 +7,86 @@
   <title>SU - web intro</title>
 </head>
 <body>
-  <h1>SU - web intro</h1>
+  <main>
+    <h1>SU - web intro</h1>
+    <div class="article">
+      <h2>
+        Jsem čerstvý nováček v&nbsp;unií a&nbsp;chtěl bych se věnovat webům. Ale jak?
+      </h2>
+      <p>
+        Pro začátek je fajn se vyznat v&nbsp;celkové struktuře a&nbsp;jak to tu vlastně
+        funguje. Z&nbsp;počátku se to může zdát jako velké sousto. Posnažíme se ho
+        rozdělit na části, nech se vám dobře polyká.
+      </p>
+    </div>
+    <div class="article">
+      <h2>
+        Co bys měl ideálně vědet?
+      </h2>
+      <p>
+        Googlit. Na většinu věcí ti postačí hledat ve starých kódech, googlit, nebo to hodit do nějakého čed džepete modelu.
+      </p>
+      <p>
+        Stále si myslím, že je vhodné znát základy 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">HTML</a> a 
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" target="_blank" rel="noopener noreferrer">CSS</a>.
+      </p>
+      <p>
+        Dále se ti bude hodit 
+        <a href="https://learngitbranching.js.org/" target="_blank" rel="noopener noreferrer">Git</a> a 
+        <a href="https://docs.github.com/en/get-started/start-your-journey/hello-world" target="_blank" rel="noopener noreferrer">GitHub</a>.
+      </p>
+    </div>
+    <div class="article">
+      <h2>
+        Jak to v té unii vlastně funguje? (z pohledu webaře)
+      </h2>
+      <p>
+        Ne každý projekt má web, protože ne každý projekt ho potřebuje. Avšak, pár jich tady je:
+      </p>
+      <ul>
+        <li>Ples</li>
+        <li>Majáles</li>
+        <li>Seznamovák</li>
+        <li>SU web</li>
+        <li>...</li>
+      </ul>
+      <p>Každý web někde leží - na serveru (většinou server od univerzity). Přístupové (FTP) údaje ke každému serveru by měli být uložené v&nbsp;GitHub účtu, v&nbsp;části <span class="code-block">Projects/FTPs</span></p>
+      <p>Ke každému stávajícimu webu uchováváme kód na našem GitHub účtu.</p>
+    </div>
+    <div class="article">
+      <h2>
+        Jaký je workflow webaře?
+      </h2>
+      <p>
+        Máme tady nějaký ty pravidla. To ale neznamená,&nbsp;že je musíš striktně dodržovat. Unie nám dáva prostor pro seberealizaci, tak se neboj využít příležitosti a&nbsp;vylepšuj&nbsp;co&nbsp;se&nbsp;dá.
+      </p>
+      <ol>
+        <li>Přidáš se do projektu</li>
+        <li>Na všechno kývneš</li>
+        <li>Komunikuješ s grafikem (rada: snaž se ho přinutit používat Figmu)</li>
+        <li>Implementuješ grafiku do webu</li>
+        <li>Měníš co je třeba - texty, farby, mezery, ...</li>
+      </ol>
+    </div>
+    <div class="article">
+      <h2>
+        Podrobnější popis GitHub workflow
+      </h2>
+      <ol>
+        <li>Založíš si nový projekt (teď to děláme v AstroJS frameworku), v budoucnu si dělej co chceš.</li>
+        <li>Založíš si GitHub repozitář reprezentující nový web.</li>
+        <li>Nahráš projekt na GitHub do vytvořeného repozitáře (do main větve).</li>
+        <li>Nastavíš repozitář: dvě branche (main a dev), pravidla, deployment yaml file, ...</li>
+        <li>Změny děláš na separátních větvích z dev větve.</li>
+        <li>V momente kdy dokončíš změny na své větvy, vytvoříš pull request (PR) na dev větev a čekáš na dalšího webaře, až ti změnu potvrdí, pak merguješ do devu.</li>
+        <li>Pro další změny opakuješ předchozí dva kroky (nezapomeň si lokálně updatovat dev větev).</li>
+        <li>Když už máte vše hotovo, vytváříš PR do main větve. Po mergnutí, se automaticky web uploaduje na server.</li>
+      </ol>
+    </div>
+  </main>
+  <footer>
+    ©2024 Studentská unie UTB, všechna práva vyhrazena
+  </footer>
 </body>
 </html>
